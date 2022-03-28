@@ -14,7 +14,7 @@ import {
   Route
 } from "react-router-dom";
 function App() {
-  const [item, setitem] = useState(Shoes)
+  const [item] = useState(Shoes)
   const [cart, setcart] = useState([]);
   return (
     <div className="App">

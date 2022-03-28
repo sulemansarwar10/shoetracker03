@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home(props) {
   //console.log(props.item)
-  let d = []
+  
   const data = props.item
   const keys = Object.keys(data)
   const cartclick = (event) => {
